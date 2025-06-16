@@ -3,7 +3,7 @@ var base = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r
         detectRetina: true,
         subdomains: 'abcd',
         minZoom: 2,
-        maxZoom: 8,
+        maxZoom: 20,
         tileSize: 256
 });
 
@@ -14,7 +14,7 @@ var map = L.map('map', {
     trackResize: true,
     worldCopyJump: true,
     minZoom: 2,
-    maxZoom: 8,
+    maxZoom: 20,
     zoom: 3,
     zoomSnap: 0.1,
     zoomDelta: 0.1,
